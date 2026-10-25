@@ -1,0 +1,94 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Header styling */
+header {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+header h3 {
+    font-size: 14px;
+    font-weight: normal;
+    overflow-wrap: anywhere;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+/* Section styling */
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #5b2c83;
+    border-bottom: 2px solid #d8b4e2;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #7b4397;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #3d2059;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+/* Mobile phone styling */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
